@@ -1,0 +1,9 @@
+int leetspeakgenerator();
+int hoofdletterding();
+int testing();
+int hollowsquare();
+int vierkant();
+int driehoek();
+int omgekeerdedriehoek();
+int piramide();
+int omgekeerdepiramide();

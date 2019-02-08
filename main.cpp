@@ -1,14 +1,17 @@
 #include <iostream>
 #include <string>
-#include "1_5.h"
-#include "1_6.h"
-#include "testing.h"
+#include "functions.hpp"
 
 using namespace std;
 
-int main(){
-    leetspeakgenerator();
+int main() {
+    //leetspeakgenerator();
     //hoofdletterding();
-    //testing();
+    testing();
+    //hollowsquare();
+    //vierkant();
+    //driehoek();
+    //omgekeerdedriehoek();
+    //piramide();
+    //omgekeerdepiramide();
 }
-

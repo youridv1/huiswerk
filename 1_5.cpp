@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "1_5.h"
+#include "functions.hpp"
 
 using namespace std;
 
