@@ -7,3 +7,4 @@ int driehoek();
 int omgekeerdedriehoek();
 int piramide();
 int omgekeerdepiramide();
+int vektor();

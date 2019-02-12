@@ -7,11 +7,12 @@ using namespace std;
 int main() {
     //leetspeakgenerator();
     //hoofdletterding();
-    testing();
+    //testing();
     //hollowsquare();
     //vierkant();
     //driehoek();
     //omgekeerdedriehoek();
     //piramide();
     //omgekeerdepiramide();
+    vektor();
 }
