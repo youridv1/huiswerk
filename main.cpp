@@ -6,12 +6,12 @@
 using namespace std;
 
 int main() {
-    leetspeakgenerator();
+    //leetspeakgenerator();
     //hoofdletterding();
     //testing();
     //hollowsquare();
     //vierkant();
-    //driehoek();
+    driehoek();
     //omgekeerdedriehoek();
     //piramide();
     //omgekeerdepiramide();

@@ -9,7 +9,7 @@ int driehoek(){
     int hoogte;
     cin >> hoogte;
     for(int i = 0; i < hoogte; i++){
-        for(int j = 0; j < i+1; j++){
+        for(int j = 0; j < i + 1; j++){
             cout << " #";
         }cout << endl;
     }
