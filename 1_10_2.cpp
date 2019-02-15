@@ -18,4 +18,14 @@ int piramide2(){
         cout << endl;
         i++;
     }
+    i = 1;
+    while(i < formaat + 1){
+        int j = 0;
+        while(j < formaat - i){
+            cout << "# ";
+            j++;
+        }
+        cout << endl;
+        i++;
+    }
 }
