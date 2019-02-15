@@ -49,5 +49,6 @@ int main() {
 
     //vector<int> n = {1, 2, 3, 4, 5, 6, 7, 4, 4, 8, 9, 4, 4, 4, 0, 0, 4};
     //cout << sortcontrole(n);
-    Vectorinput();
+    //Vectorinput();
+    piramide2();
 }

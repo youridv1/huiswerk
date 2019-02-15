@@ -20,3 +20,4 @@ vector<float> SumVectoren(const vector<float> & cijfers, const vector<float> & n
 int omdraaier();
 bool sortcontrole(vector<int> & victor);
 void Vectorinput();
+int piramide2();
