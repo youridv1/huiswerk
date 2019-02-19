@@ -11,7 +11,7 @@ int main() {
     //testing();
     //hollowsquare();
     //vierkant();
-    driehoek();
+    //driehoek();
     //omgekeerdedriehoek();
     //piramide();
     //omgekeerdepiramide();
@@ -51,4 +51,5 @@ int main() {
     //cout << sortcontrole(n);
     //Vectorinput();
     //piramide2();
+    print();
 }
