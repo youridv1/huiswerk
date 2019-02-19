@@ -51,5 +51,7 @@ int main() {
     //cout << sortcontrole(n);
     //Vectorinput();
     //piramide2();
-    print();
+    //print();
+    vector<int> n = {1, 2, 3, 4, 5};
+    cout << victormean(n);
 }

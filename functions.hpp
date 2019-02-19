@@ -22,3 +22,4 @@ bool sortcontrole(vector<int> & victor);
 void Vectorinput();
 int piramide2();
 void print();
+float victormean(const vector<int> & victor);
