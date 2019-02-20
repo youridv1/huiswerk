@@ -25,3 +25,4 @@ void print();
 float victormean(const vector<int> & victor);
 float victorvictormean(const vector<vector<int>> & cijfers);
 int getBit(uint8_t b, int n);
+vector<vector<int>> getIndexes(const vector<vector<char>> & charMatrix, const char & c);
