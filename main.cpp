@@ -74,6 +74,14 @@ int main() {
     //for(size_t i = 0; i < indexes.size(); i++){
     //    cout << "[" << indexes[i][0] << ", " << indexes[i][1] << "], ";
     //}
-    char n = 'a';
-    improveLoveMessage(n);
+    //char n = 'a';
+    //improveLoveMessage(n);
+    vector<vector<float>> n =
+                            {{1.2, 3.4, 5.6},
+                             {2.1, 4.3, 6.5},
+                             {0.1, 2.3, 4.5}};
+    vector<float> sommaties = somkolom(n);
+    for(size_t i = 0; i < sommaties.size(); i++){
+        cout << sommaties[i] << ", ";
+    }
 }

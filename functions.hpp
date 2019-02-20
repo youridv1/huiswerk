@@ -1,5 +1,5 @@
 #include <vector>
-using namespace std;
+using std::vector;
 int leetspeakgenerator();
 int hoofdletterding();
 int testing();
@@ -27,3 +27,4 @@ float victorvictormean(const vector<vector<int>> & cijfers);
 int getBit(uint8_t b, int n);
 vector<vector<int>> getIndexes(const vector<vector<char>> & charMatrix, const char & c);
 void improveLoveMessage(char & message);
+vector<float> somkolom(const vector<vector<float>> & cijfers);
