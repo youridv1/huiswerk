@@ -63,15 +63,17 @@ int main() {
     //int n = 2;
    // uint8_t b = 'a';
     //cout<< getBit(b, n);
-    vector<vector<char>> letters =
-            {{'u', 'b', 'c', 'p'},
-             {'f', 'b', 'y', 'u'},
-             {'t', 'u', 'u', 's'},
-             {'x', 'u', 'w', 'q'}};
-    vector<vector<int>> indexes = getIndexes(letters, 'u');
+   // vector<vector<char>> letters =
+     //       {{'u', 'b', 'c', 'p'},
+     //        {'f', 'b', 'y', 'u'},
+     //        {'t', 'u', 'u', 's'},
+     //        {'x', 'u', 'w', 'q'}};
+    //vector<vector<int>> indexes = getIndexes(letters, 'u');
 
-    cout << "there is a \'u\' at: ";
-    for(size_t i = 0; i < indexes.size(); i++){
-        cout << "[" << indexes[i][0] << ", " << indexes[i][1] << "], ";
-    }
+   // cout << "there is a \'u\' at: ";
+    //for(size_t i = 0; i < indexes.size(); i++){
+    //    cout << "[" << indexes[i][0] << ", " << indexes[i][1] << "], ";
+    //}
+    char n = 'a';
+    improveLoveMessage(n);
 }
