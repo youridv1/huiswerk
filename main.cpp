@@ -76,12 +76,22 @@ int main() {
     //}
     //char n = 'a';
     //improveLoveMessage(n);
-    vector<vector<float>> n =
-                            {{1.2, 3.4, 5.6},
-                             {2.1, 4.3, 6.5},
-                             {0.1, 2.3, 4.5}};
-    vector<float> sommaties = somkolom(n);
-    for(size_t i = 0; i < sommaties.size(); i++){
-        cout << sommaties[i] << ", ";
-    }
+   // vector<vector<float>> n =
+     //                       {{1.2, 3.4, 5.6},
+      //                       {2.1, 4.3, 6.5},
+       //                      {0.1, 2.3, 4.5}};
+   // vector<float> sommaties = somkolom(n);
+   // for(size_t i = 0; i < sommaties.size(); i++){
+    //    cout << sommaties[i] << ", ";
+  //  }
+
+  vector<vector<int>> v =
+          {{1, 1, 1},
+           {1, 1, 0},
+           {1, 0, 0}};
+  int n = 1;
+  vector<int> frequenties = frequentiekolom(v, n);
+  for(size_t i = 0; i < frequenties.size(); i++){
+      cout << frequenties[i] << ", ";
+  }
 }
