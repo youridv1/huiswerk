@@ -54,10 +54,13 @@ int main() {
     //print();
     //vector<int> n = {1, 2, 3, 4, 5};
     //cout << victormean(n);
-    vector<vector<int>> n = {{1, 2, 3, 4, 5},
-                     {1, 2, 5, 4, 5},
-                     {1, 2, 3, 4, 5},
-                     {1, 2, 3, 4, 5},
-                     {1, 2, 3, 4, 5}};
-    cout << victorvictormean(n);
+    //vector<vector<int>> n = {{1, 2, 3, 4, 5},
+      //               {1, 2, 5, 4, 5},
+        //             {1, 2, 3, 4, 5},
+          //           {1, 2, 3, 4, 5},
+            //         {1, 2, 3, 4, 5}};
+    //cout << victorvictormean(n);
+    int n = 2;
+    uint8_t b = 'a';
+    cout<< getBit(b, n);
 }
