@@ -52,6 +52,12 @@ int main() {
     //Vectorinput();
     //piramide2();
     //print();
-    vector<int> n = {1, 2, 3, 4, 5};
-    cout << victormean(n);
+    //vector<int> n = {1, 2, 3, 4, 5};
+    //cout << victormean(n);
+    vector<vector<int>> n = {{1, 2, 3, 4, 5},
+                     {1, 2, 5, 4, 5},
+                     {1, 2, 3, 4, 5},
+                     {1, 2, 3, 4, 5},
+                     {1, 2, 3, 4, 5}};
+    cout << victorvictormean(n);
 }
