@@ -29,3 +29,4 @@ vector<vector<int>> getIndexes(const vector<vector<char>> & charMatrix, const ch
 void improveLoveMessage(char & message);
 vector<float> somkolom(const vector<vector<float>> & cijfers);
 vector<int> frequentiekolom(const vector<vector<int>> & cijfers, const int & n);
+void transpose(vector<vector<int>> & m);

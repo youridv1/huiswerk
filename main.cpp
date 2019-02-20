@@ -85,13 +85,18 @@ int main() {
     //    cout << sommaties[i] << ", ";
   //  }
 
-  vector<vector<int>> v =
-          {{1, 1, 1},
-           {1, 1, 0},
-           {1, 0, 0}};
-  int n = 1;
-  vector<int> frequenties = frequentiekolom(v, n);
-  for(size_t i = 0; i < frequenties.size(); i++){
-      cout << frequenties[i] << ", ";
-  }
+//  vector<vector<int>> v =
+//          {{1, 1, 1},
+//           {1, 1, 0},
+//           {1, 0, 0}};
+//  int n = 1;
+//  vector<int> frequenties = frequentiekolom(v, n);
+//  for(size_t i = 0; i < frequenties.size(); i++){
+//      cout << frequenties[i] << ", ";
+//  }
+    vector<vector<int>> v =
+          {{1, 2, 3},
+           {4, 5, 6},
+           {7, 8, 9}};
+    transpose(v);
 }
