@@ -60,9 +60,9 @@ int main() {
           //           {1, 2, 3, 4, 5},
             //         {1, 2, 3, 4, 5}};
     //cout << victorvictormean(n);
-    //int n = 2;
-   // uint8_t b = 'a';
-    //cout<< getBit(b, n);
+    int n = 6;
+    uint8_t b = 'a';
+    cout<< getBit(b, n);
    // vector<vector<char>> letters =
      //       {{'u', 'b', 'c', 'p'},
      //        {'f', 'b', 'y', 'u'},
@@ -94,9 +94,13 @@ int main() {
 //  for(size_t i = 0; i < frequenties.size(); i++){
 //      cout << frequenties[i] << ", ";
 //  }
-    vector<vector<int>> v =
-          {{1, 2, 3},
-           {4, 5, 6},
-           {7, 8, 9}};
-    transpose(v);
+//    vector<vector<int>> v =
+//          {{1, 2, 3},
+//           {4, 5, 6},
+//           {7, 8, 9}};
+//    transpose(v);
+//    char c = 'a';
+//    reverse(c);
+//    cout << stappen();
+
 }

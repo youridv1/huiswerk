@@ -30,3 +30,5 @@ void improveLoveMessage(char & message);
 vector<float> somkolom(const vector<vector<float>> & cijfers);
 vector<int> frequentiekolom(const vector<vector<int>> & cijfers, const int & n);
 void transpose(vector<vector<int>> & m);
+char reverse(char & ch);
+int stappen();
