@@ -1,0 +1,7 @@
+// Vervang de tekst onder de tags met de je eigen gegevens.
+
+<student>
+    <naam>Youri de Vor</naam>
+    <studentnummer>1749751</studentnummer>
+    <klas>V1B</klas>
+</student>
